@@ -81,7 +81,9 @@ export class NoName extends React.Component<MyProps, MyState> {
         </button>
         <label className={styles.input}>
           PROFIT
-          <div className={styles.inputstyle2}>{this.state.finalPrice}</div>
+          <div className={styles.inputstyle2}>
+            {this.state.finalPrice.toFixed(0)}
+          </div>
         </label>
       </div>
     );
