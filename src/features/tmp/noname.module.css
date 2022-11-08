@@ -67,3 +67,33 @@
   padding: 0;
 
 }
+
+@media screen and (max-device-width: 800px) {
+
+  .tmp {
+
+    background-color: #101010;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px 52px 20px 52px;
+    border-bottom: solid #1B1B1B 1px;
+    gap: 25px;
+    flex-direction: column;
+    
+  }
+
+  .button {
+
+    background-color: #7AA395;
+    color: #FFFFFF;
+    font-family: "WorkSans";
+    font-size: 11px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 70px;
+  
+  }
+
+}
