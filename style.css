@@ -13,10 +13,15 @@ header {
 
     display: flex;
     justify-content: center;
+    gap: 10px;
+
+}
+
+.william p {
+
     color: #7AA395;
     font-family: "WorkSans";
     font-size: 12px;
-    gap: 10px;
 
 }
 
