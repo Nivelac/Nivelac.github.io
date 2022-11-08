@@ -1,0 +1,17 @@
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border-bottom: solid #1B1B1B 1px;
+    padding: 13px 52px 13px 52px;
+
+}
+
+.william {
+
+    display: flex;
+    justify-content: center;
+
+}
