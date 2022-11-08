@@ -49,22 +49,40 @@ export class NoName extends React.Component<MyProps, MyState> {
   render() {
     return (
       <div className={styles.tmp}>
-        <label>
-          BuyPrice :
-          <input type="number" onChange={this.buyPriceChange} />
+        <label className={styles.input}>
+          BUY PRICE
+          <input
+            type="number"
+            onChange={this.buyPriceChange}
+            placeholder="Buy price"
+            className={styles.inputstyle}
+          />
         </label>
-        <label>
-          SellPrice :
-          <input type="number" onChange={this.sellPriceChange} />
+        <label className={styles.input}>
+          SELL PRICE
+          <input
+            type="number"
+            onChange={this.sellPriceChange}
+            placeholder="Sell price"
+            className={styles.inputstyle}
+          />
         </label>
-        <label>
-          NPCPrice :
-          <input type="number" onChange={this.npcPriceChange} />
+        <label className={styles.input}>
+          NPC PRICE
+          <input
+            type="number"
+            onChange={this.npcPriceChange}
+            placeholder="NPC price"
+            className={styles.inputstyle}
+          />
         </label>
-        <button onClick={this.finalPriceChange} style={{ width: "10vw" }}>
-          CALCUL
+        <button onClick={this.finalPriceChange} className={styles.button}>
+          =
         </button>
-        <label>Final price : {this.state.finalPrice}</label>
+        <label className={styles.input}>
+          PROFIT
+          <div className={styles.inputstyle2}>{this.state.finalPrice}</div>
+        </label>
       </div>
     );
   }

@@ -1,0 +1,28 @@
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border-bottom: solid #1B1B1B 1px;
+    padding: 13px 52px 13px 52px;
+
+}
+
+.william {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.william p {
+
+    color: #7AA395;
+    font-family: "WorkSans";
+    font-size: 12px;
+
+}
+

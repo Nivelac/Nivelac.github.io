@@ -37,3 +37,8 @@
     transform: translateY(0px);
   }
 }
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("fonts/WorkSans-Medium.ttf") format("truetype");
+}
