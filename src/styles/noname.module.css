@@ -1,18 +1,20 @@
-.tmp {
-
+.inputPriceContainer {
   background-color: #101010;
   align-items: center;
   display: flex;
   justify-content: left;
   padding: 20px 52px 20px 52px;
-  border-bottom: solid #1B1B1B 1px;
+  border-bottom: solid #1b1b1b 1px;
   gap: 25px;
 
+  -ms-overflow-style: none;
+}
+.inputPriceContainer::-webkit-scrollbar {
+  display: none;
 }
 
 .input {
-
-  color: #9A9A9A;
+  color: #9a9a9a;
   font-family: "WorkSans";
   font-size: 11px;
   display: flex;
@@ -20,86 +22,83 @@
   justify-content: center;
   align-items: flex-start;
   gap: 5px;
-
 }
 
 .inputstyle {
-
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   padding: 11px;
   border: solid #292929 1px;
   border-radius: 5px;
   width: 125px;
   font-family: "WorkSans";
   font-size: 11px;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .inputstyle2 {
-
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   padding: 11px;
   border: solid #292929 1px;
   border-radius: 5px;
   width: 125px;
   display: flex;
-
 }
 
 .button {
-
-  background-color: #7AA395;
-  color: #FFFFFF;
+  background-color: #7aa395;
+  color: #ffffff;
   font-family: "WorkSans";
   font-size: 11px;
   margin-top: 18px;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   padding: 12px 14px;
+  cursor: pointer;
+  width: 125px;
+}
 
+.deleteButton {
+  background-color: #a37a7a;
+}
+
+.button:active {
+  color: #101010;
 }
 
 ::placeholder {
-
   color: #313131;
-
 }
 
 * {
-
   background-color: #101010;
   margin: 0;
   padding: 0;
+}
 
+.priceRecap {
+  flex: 0 0 auto;
 }
 
 @media screen and (max-device-width: 800px) {
-
-  .tmp {
-
+  .inputPriceContainer {
     background-color: #101010;
     align-items: center;
     display: flex;
     justify-content: center;
     padding: 20px 52px 20px 52px;
-    border-bottom: solid #1B1B1B 1px;
+    border-bottom: solid #1b1b1b 1px;
     gap: 25px;
     flex-direction: column;
-    
   }
 
   .button {
-
-    background-color: #7AA395;
-    color: #FFFFFF;
+    background-color: #7aa395;
+    color: #ffffff;
     font-family: "WorkSans";
     font-size: 11px;
     margin-top: 18px;
     border: none;
     border-radius: 5px;
     padding: 12px 70px;
-  
   }
-
 }

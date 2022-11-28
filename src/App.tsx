@@ -1,8 +1,7 @@
-import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
-import { NoName } from "./features/tmp/noname";
+import PriceHistory from "./features/priceHistory/priceHistory";
+import { PriceInput } from "./features/priceHistory/priceInput";
+import PriceRecap from "./features/priceHistory/priceRecap";
 
 //fonts
 import "./fonts/WorkSans-Medium.ttf";
@@ -10,7 +9,9 @@ import "./fonts/WorkSans-Medium.ttf";
 function App() {
   return (
     <div className="App">
-      <NoName />
+      <PriceInput />
+      <PriceHistory />
+      <PriceRecap />
     </div>
   );
 }
